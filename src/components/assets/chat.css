@@ -1,0 +1,118 @@
+nav{
+    background-color: #23235E;
+    padding: 10px;  
+    display: flex;
+    align-items: center;
+} 
+
+.user-profile-pic{
+    margin-left: 12%;
+    height: 86px;
+    width: 83px;
+}
+
+.nav-text{
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+    font-size: 34px;
+    color: white;
+    margin-left:2%;
+    margin-right: 35%;
+}
+
+.sidenav-oval{
+    height: 84px;
+    width: 87px;
+}
+
+.chat-nav-icon{
+    margin-left: 3%;
+}
+
+.chat-row{
+    display: flex;
+}
+
+
+.day-text{
+    background-color: #23235E;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+    font-size: 25px;
+    width: 100px;
+    margin-left: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.received-text{
+    width: 300px;
+    background-color: #23235E;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    display: block;
+}
+
+.text-time{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 50%;
+}
+
+.received-text>.text-time{
+    margin-left: -10px;
+}
+
+.sent-text{
+    width: 300px;
+    background-color: #23235E;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    /* position: absolute;
+    right: 30px; */
+    margin-left: 70%;
+    padding-top: 10px;
+}
+
+.text-bar{
+    display: flex;
+    align-items: center;
+    background-color: #23235E;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    padding: 10px;
+    margin-left: 5%;
+    width: 908px;
+    height: 104px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.type-text{
+    margin-left: 30px;
+}
+
+#smiley{
+    margin-left: 50%;
+}
+
+#send-icon{
+    margin-left: 20px;
+}

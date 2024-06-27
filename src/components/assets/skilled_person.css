@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+.skilled-person-container{
+    display: flex;
+    height: 100%;
+}
+
+.skilled-person-dashboard{
+    margin-left: 2%;
+}
+
+.skilled-person-gigs{
+    margin-left: 2%;
+}
+
+.sp-dashboard-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+}
+
+.gigs-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.gigs-info-left{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #626262;
+    width: 45%;
+    margin-right: 2%;
+    border-radius: 20px;
+    margin-left: 2%;
+}
+
+.gigs-info-right{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #626262;
+    width: 45%;
+    margin-left: 2%;
+    border-radius: 20px;
+    margin-right: 2%;
+}
+
+.gigs-text{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #23235E;
+}
+
+.sp-gigs-head{
+    display: flex;
+    align-items: center;
+}
+
+.gigs-head{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #23235E;
+}
+
+.add-gig{
+    padding: 10px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.upload-gigs{
+    margin-left: 2%;
+    margin-top: 4%;
+    width: 70%;
+    border: 2px solid #626262;
+    border-radius: 10px;
+    height: 575px;
+}   
+
+.upload-heading{
+    background-color: #23235E;
+    color: white;
+    padding: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px; 
+    margin-top: 0px; 
+    margin-bottom: 2px;  
+    border: 2px solid #626262;
+    border-radius: 10px;
+}
+
+.upload-form-row{
+    display: flex;
+    padding: 20px;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-label{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px; 
+    color: #23235E;
+    margin-top: 10px;
+}
+
+.upload-title-input{
+    width: 477px;
+    height: 53px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px; 
+    color: #424242;
+    border: 1px solid #23235E;
+}
+
+#description{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px; 
+    color: #424242;
+    border: 1px solid #23235E;
+    width: 476px;
+    height: 220px;
+}
+
+.upload-img{
+    margin-left: 100%;
+}
+
+.upload-file{
+    border: 2px solid #23235E;
+    width: 285px;
+    height: 122px;
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+.upload-text{
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    color: #23235E;
+    text-align: center;
+}
+
+.upload-file-btns{
+    display: flex;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+.upload-file-btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: #23235E;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form-buttons{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.form-btn{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    color: white;
+    font-weight: 500;
+    background-color: #23235E;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}

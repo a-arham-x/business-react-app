@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+.entrepreneur-container{
+    display: flex;
+    height: 100%;
+}
+
+.entrepreneur-dashboard{
+    margin-left: 10px;
+}
+
+.edb-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-bottom: 5px;
+}
+
+.edb-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #424242;
+}
+
+.edb-container{
+    display: flex;
+}
+
+.edb-sub-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border: 2px solid #626262;
+    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.edb-sub-container-x{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    border: 2px solid #626262;
+    margin-right: 20px;
+    width: 180%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.edb-sm-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+.entrepreneur-ideas{
+    margin-left: 20px;
+}
+
+.ei-head{
+    display: flex;
+    align-items: center;
+}
+
+.ei-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #23235E;
+    margin-bottom: -5px;
+}
+
+.ei-head-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.e-add-idea-btn{
+    margin-left: 300px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    background-color: #23235E;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.ei-container{
+    border: 2px solid #626262;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.ei-container-head{
+    text-align: center;
+    color: white;
+    background-color: #23235E;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.ei-container-row{
+    display: flex;
+}
+
+.entrepreneur-idea{ 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    color: white;
+    background-color: #23235E;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ei-head-1{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.ei-text{
+    margin-top: -15px;  
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ei-head-2{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.ei-edit-button{
+    background-color: white;
+    color: #23235E;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    width: 60px;
+    border-radius: 20px;
+    float: right;
+}
+
+.entrepreneur-edit{
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.entrepreneur-edit-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #626262;
+    border-radius: 10px;
+}
+
+.edit-form-head{
+    color: white;
+    background-color: #23235E;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.edit-form-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: -20px;
+}
+
+.edit-form-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.edit-form-label{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.edit-form-textarea{
+    width:95%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    height: 100px;
+    border: 2px solid #626262;
+    border-radius: 10px;
+}
+
+.edit-save-button{
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #23235E;
+    color: white;
+    width: 150px;
+    margin: 20px;
+    margin-left: 80%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.entrepreneur-add-idea{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 70%;
+}
+
+.entrepreneur-add-idea-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #626262;
+    border-radius: 10px;
+}
+
+.add-idea-form-heading{
+    background-color: #23235E;
+    color: white;
+    padding: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px; 
+    margin-top: 0px; 
+    margin-bottom: 2px;  
+    border: 2px solid #626262;
+    border-radius: 10px;
+}
+
+.add-idea-form-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #424242; 
+    margin-left: 10px; 
+    margin-top: 5px;
+}
+
+.add-idea-label{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-left: 10px; 
+}
+
+.add-idea-input{
+    width: 50%;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 25px;
+    border: 1px solid #23235E;
+    margin-bottom: 20px;
+}
+
+.add-idea-decription{
+    width: 50%;
+    margin-left: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.add-idea-btns{
+    margin-left: 60%;
+    padding: 20px;
+}
+
+.add-idea-btn{
+    margin-left: 20px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: #23235E;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hiring-heading{
+    margin-left: 30%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #23235E;
+    margin-bottom: 5px;
+}
+
+.hiring-text{
+    margin-left: 30%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #424242;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ent-input{
+    margin-top: 5px;
+}
+
+.hiring-chat{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    border: 2px solid #626262;
+    border-radius: 10px;
+    padding: 5px;
+    width: 160%;
+    margin-bottom: 30px;
+}
+
+.hiring-chat-skill{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.hiring-chat-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #23235E;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.hiring-chat-btn{
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    background-color: #23235E;
+    position: absolute;
+    right: 10%;
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.skilled-persons-row{
+    display: flex;
+}
+
+.skilled-person{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #23235E;
+    border-radius: 10px;
+    color:white;
+}
+
+.skilled-person-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 10px;  
+}
+
+.ent-skilled-person-about{
+    margin-left: 10px;
+}
+
+.ent-skilled-person-name{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.ent-skilled-person-description{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ent-skilled-person-btn-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.ent-skilled-person-btn{
+    margin: 10px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    color: #23235E;
+    border-radius: 20px;
+}
+
+.vl {
+    border-left: 1px solid #626262;
+    height: 500px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0; 
+    margin-top: -0.7%; 
+    height: 105vh;
+}
+
+.ep-top-container{
+    display: flex;
+    align-items: center;
+}
+
+.entrepreneur-portfolio{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.ep-name-head{
+    font-size: 36px;
+    margin-bottom: -10px;
+}
+
+.ep-skill{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.portfolio-img{
+    margin-left: 800%;
+}
+
+.ep-separator{
+    width: 80%;
+    margin-right: 30%;
+}
+
+.ep-container{
+    display: flex;
+}
+
+.ep-container-left{
+    width: 50%;
+}
+
+.ep-head-2{
+    margin-top: 5px;
+}
+
+.ep-head-3{
+    font-size: 15px;
+    margin-bottom: -15px;
+}
+
+.ep-text{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.ep-list{
+    list-style: none;
+    margin-left: -35px;
+}
+
+.ep-list-item{
+    font-size: 13px;
+}
+
+.skill-text{
+    margin-bottom: -18px;
+}
+.skill-level{
+    height: 2px;
+}
+
+.ep-container-right{
+    margin-left: 2%;
+}
+
+.ep-text-sm{
+    font-size: 12px;
+    margin-top: -2%;
+    margin-bottom: -1%;
+}
+
+.ep-head-4{
+    margin-top: -2%;
+}
+
+.job-position{
+    margin-top: -2%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.job-duration{
+    margin-top: -1%;
+    font-size: 14px;
+}
+
+.job-roles{
+    margin-top: -1%;
+    margin-left: -2.5%;
+    margin-bottom: 3%;
+}
+
+.job-role{
+    font-size: 12px;
+}
+
+.ep-head-3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.uni-head{
+    margin-top: 2%;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.job-duration{
+    font-size: 12px;
+}
+
+

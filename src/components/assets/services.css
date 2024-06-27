@@ -1,0 +1,46 @@
+.services-heading{
+    text-align: center;
+    color: #23235E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.services-text{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.services{
+    display: flex;
+}
+
+.service{
+    width: 23%;
+    border: 5px solid #23235E;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.service>img{
+    margin: auto;
+    margin-left: 33%;
+}
+
+.investor-heading{
+    text-align: center;
+    color: #23235E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.investor-text{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    margin-top: -30px;
+}

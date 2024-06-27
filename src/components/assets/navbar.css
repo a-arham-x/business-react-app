@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+nav{
+    background-color: #23235E;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1>img{
+    width: 200px;
+}
+
+.links-container{
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.links-container>a{
+    background-color: white;
+    text-decoration: none;
+    color: #23235E;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.return{
+    display: flex;
+    cursor: pointer;
+}
+
+.return-txt{
+    margin-left: 5px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.auth-container-1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.auth-container-1>img{
+    width: 200px;
+}
+
+.auth-div{
+    position: absolute;
+    right: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.auth-text{
+    font-weight: 300;
+}
+
+.auth-link{
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.user-page-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.user-type-container{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    width: 100%;
+}
+
+
+.user-type{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+    margin-left: 15px;
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-container{
+    display:flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.user-nav{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.lower-container{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.page-type{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 32px;
+    margin-left: 75%;
+    color: white;
+    margin-top: 0;
+}
+
+.contact-div{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    margin-left: 200%;
+}
+
+.message-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.message-img{
+    margin-bottom: 0;
+}
+
+.nav-p{
+    margin-top: 0px;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}

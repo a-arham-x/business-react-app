@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+.admin-container{
+    display: flex;
+    height: 100%;
+}
+
+.admin-dashboard{
+    margin-left: 2%;
+}
+
+.box{
+    width: 530px;
+    height: 180px;
+}
+
+.box>.sp-dashboard-heading{
+    margin-bottom: -20px;
+}
+
+.projects-box{
+    margin-left: 2%;
+    border: 2px solid #615E5E;
+    border-radius: 20px;
+    width: 1123px;
+    height: 422px;
+}
+
+.projects-box>.sp-dashboard-heading{
+    margin-left: 2%;
+}
+
+.projects-progress-container{
+    margin-left: 4%;
+}
+
+.projects-progress-container>.gigs-text{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.projects-progress-container>.project-progress{
+    margin-top: 12px;
+    width: 802px;
+    /* height: 13px; */
+    background-color: #C8C8C8;
+}
+
+.users-table{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 75%;
+    border: 2px solid #615E5E;
+    border-radius: 15px;
+    height: 618px;
+}
+
+.head-container{
+    background-color: #23235E;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+}
+
+.table-row{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 2px solid #615E5E;
+}
+
+.table-head{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.user-pic{
+    height: 60px;
+    width: 60px;
+}
+
+.table-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}   
+
+.table-btn{
+    position: absolute;
+    right: 15%;
+    width: 131px;
+    background-color: #23235E;
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.edit-icon{
+    position: absolute;
+    right: 10%  ;
+}
+
+.delete-icon{
+    position: absolute;
+    right: 5%; 
+}
+
+.last{
+    border-bottom: none;
+}
+
+.actions{
+    position: absolute;
+    right: 5%;
+}
+
+.ent-col{
+    margin-left: 30%;
+}
+
+.ideas-table{
+    width: 1166px;
+    height: auto;   
+    margin-bottom: 5%;
+}
+
+.table-text-sm{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    width: 300px;
+    margin-left: 5%;
+}
+
+.itable-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 176px;
+}
+
+.desc-col{
+    margin-left: 10%;
+}
+
+.itable-btn{
+    width: 131px;
+    background-color: #23235E;
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 5%;
+}
+
+.tick-img{
+    position: absolute;
+    right: 100px;
+}  
+
+.cross-img{
+    position: absolute;
+    right: 60px;
+}  
+
+.search-ideas{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: -20px;
+}
+
+.search-ideas-input{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.total-ideas-container{
+    margin-left: 20%;
+}
+
+.large{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #23235E;
+}
+
+.small{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #23235E;
+    margin-top: -25px;
+}
+
+.export-btn{
+    width: 123px;
+    background-color: #23235E;
+    color: white;
+    border-radius: 40px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.ideas-head{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-left: 2%;
+}
+
+.ideas-text{
+    font-family: "Oxygen", sans-serif;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 2%;
+    color: #23235E;
+}
+
+.ideas-table .table-text{
+    margin-left: 5%;
+}
+
+.contract-table{
+    width: 1166px;
+    height: auto;   
+    margin-bottom: 5%;
+}
+
+.contract-table .table-head{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contract-table .actions{
+    right: 20px;
+}
+
+.contract-table .table-text{
+    margin-right: 50px;
+}
+
+.date-text{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.contract-table .table-btn{
+    right: 200px;    
+}
+
+.open-icon{
+    position: absolute;
+    right: 100px ;
+}
+
+.contract-table .delete-icon{
+    right: 60px;    
+}
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-div{
+    display: flex;
+    align-items: center;
+}
+
+.contract-heading{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-left: 2%;
+}

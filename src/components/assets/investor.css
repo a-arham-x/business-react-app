@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+.investor-container{
+    display: flex;
+    height: 100%;
+}
+
+#make-contract{
+    margin-left: 2%;
+}
+
+.make-contract-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #23235E;
+    margin-bottom: 5px;
+}
+
+#make-contract-bold{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size:24px;
+    color: #424242;
+    width: 42%;
+    margin-top: 5px;
+}
+
+#terms{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #23235E;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.make-contract-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;   
+    width: 45%;
+    margin-top: 5px;
+}
+
+.agree-button{
+    margin-bottom: 20px;
+    margin-left: 40%;
+    background-color:#23235E;
+    padding: 10px;
+    color: white;
+    width: 160px;
+    border-radius: 40px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.investor-portfolio{
+    margin-left: 2%;
+}
+
+.investor-portfolio-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #23235E;
+    margin-bottom: 5px;
+}
+
+.portfolio-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #23235E;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.invested-project{
+    display: flex;
+    border:3px solid #23235E;
+    padding: 20px;
+    width: 110%;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.investor-portfolio-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+}
+
+.invested-project-container{
+    margin-left: 2%;
+}
+
+.invested-project-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.invested-project-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #23235E;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.invested-project-button{
+    background-color: #23235E;
+    color: white;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    width: 200px;
+    border-radius: 30px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.investor-contract{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-input{
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search-button{
+    margin-left: 30%;
+    margin-top: 10px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    background-color: #23235E;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.contract-project{
+    display: flex;
+    border:3px solid #23235E;
+    padding: 20px;
+    width: 175%;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+.contract-project-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    margin-top: -5%;
+    margin-right: 20px;
+}
+
+.contract-project-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E
+}
+
+.info-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ig-bold{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #23235E;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ig-light{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #23235E;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.tracking-button{
+    background-color: #23235E;
+    color: white;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    width: 200px;
+    border-radius: 30px;
+    position: absolute;
+    right: 45px;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.investor-profile{
+    margin-left: 2%;
+    padding: 10px;
+}
+
+.ip-about{
+    border: 2px solid #615E5E;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.ip-about-head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.ip-ab-image{
+    height: 80px;
+    width: 80px;
+}
+
+.ip-ab-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: -2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ip-ab-name{
+    margin-bottom: 5px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #23235E;
+}
+
+.ip-ab-button{
+    color: white;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #23235E;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.ip-ab-icon{
+    margin-left: 60%;
+    height: 60px;
+    width: 60px;
+}
+
+.ip-group{
+    margin-top: -20px;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+}
+
+.ip-group-text{
+    margin-left: 15px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 400;
+    color: #23235E;
+}
+
+.ip-about-text-head{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #23235E;
+    margin-bottom: 0px;
+}
+
+.ip-about-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+}
+
+.previous-investments{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.previous-investments-head{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #23235E;
+    padding: 10px;
+}
+
+.pi-separator{
+    border: 2px solid #615E5E;
+}
+
+.pi-container{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.pisc-head{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #23235E;
+    margin-bottom: -10px;
+}
+
+.pisc-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pisc-btn{
+    position: absolute;
+    right: 25%;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #23235E;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+.iideas-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #23235E;
+    margin-left: 38%;
+    margin-bottom: 5px;
+}
+
+.iideas-text{
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #424242;
+}
+
+#iideas-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.iideas-row{
+    display: flex;
+}
+
+.iideas-idea{
+    border: 2px solid #615E5E;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.iidea-name{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+}
+
+.iidea-description{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
+
+.iideas-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.iideas-btn{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #23235E;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.investor-details{
+    display: flex;
+}
+
+.investor-details-container{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.id-heading{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #23235E;
+    margin-bottom: -15px;
+}
+
+.id-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #424242
+}
+
+.id-row{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.id-row-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.sub-id-row{
+    margin-left: 5px;
+}
+
+.sir-head{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #23235E;
+    margin-bottom: -25px;
+}
+
+.sir-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #424242;
+}
+
+.id-details{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    margin-left: 50px;
+}
+
+.id-amount{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #424242;
+    margin-top: 20px;
+}
+
+.id-contact{
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #23235E;
+    margin-bottom: -20px;
+}
+
+.id-contact-text{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #424242;
+}
+
+.open-chat-btn{
+    padding: 10px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: #23235E;
+    width: 130px;
+    border-radius: 20px;
+}
+
+.investor-tracking{
+    margin-left: 10px;
+}
+
+.tracking-product-name{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #23235E;
+    margin-bottom: -30px;
+}
+
+.tracking-product-description{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #424242;
+}
+
+.product-tracking-container{
+    display: flex;
+    border: 2px solid #615E5E;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-name-container{
+    margin-top: -20px;
+}
+
+.product-progress-container{
+    margin-top: 125px;
+}
+
+.product-cost-container{
+    margin-top: 125px;
+}
+
+.open-new{
+    margin-left: 40%;
+}
+
+
+
+

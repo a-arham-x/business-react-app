@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+.auth-heading{
+    text-align: center;
+    color: #23235E;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.auth-page-container{
+    display: flex;
+    height: 100%;
+}
+
+.login-page-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-text{
+    text-align: center;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 20px;
+    margin-top: 5px
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #23235E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.login-heading{
+    background-color: #23235E;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.form-class{
+    width: 80%;
+    padding: 40px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    border: 2px solid #23235E;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+.input-field{
+    border: none;
+}
+
+.auth-button{
+    background-color: #23235E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    align-items: center ;
+}
+
+.forgot-password{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #23235E;
+    margin-left: 10%;
+}
+
+.or-container{
+    display: flex;
+    align-items: center;
+    margin-left: 30%    
+}
+
+.or{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #23235E;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.third-party-auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    background-color: #23235E;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.third-party-auth>img{
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 100vh;
+    margin-right: 10px;
+    color: #23235E;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    width: 10%;
+}
+
+.input-group{
+    display: flex;
+    margin: auto;
+}
+
+.input-group>.input-container{
+    width: 40%;
+}
+
+.input-group-2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-inputs{
+    width: 38%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.input-group-2 .input-container{
+    width: 94%
+}
+
+.input-group-2>.textarea-container{
+    width: 45%;
+    height: 250px;
+    margin-top: -12px;
+}
+
+#about-yourself{
+    margin-left: 40px;
+    width: 88%;
+    height: 100%;
+    border: 2px solid #23235E;
+}
+
+.auth-buttons-group{
+    display: flex;
+    width: 60%;
+    margin-left: 55%;
+}
+
+.auth-buttons-group>.auth-button{
+    margin: 10px;
+    width: 25%;
+}
+

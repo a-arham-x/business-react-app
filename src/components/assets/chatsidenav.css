@@ -1,0 +1,102 @@
+.chat-sidenav{
+    display: flex;
+    flex-direction: column;
+    background-color: #23235E;
+    padding: 30px;
+    /* justify-content: center; */
+    /* margin-top: -27%;    */
+    /* height: auto; */
+    /* height: 150vh; */
+}
+
+.sidenav-top{
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: -20px;
+    /* margin-top: 75%; */
+}
+
+.highlighted{
+    font-family: "Roboto", sans-serif;
+    font-weight:700;
+    font-size: 22px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: -15px;;
+}
+
+.small-email{
+    font-family: "Roboto", sans-serif;
+    font-weight:200;
+    color: white;
+    margin-left: 10px;
+}
+
+.bell-icon{
+    margin-left: 65%;
+}
+
+.messages-head{
+    font-family: "Roboto", sans-serif;
+    font-weight:700;
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+}
+
+.search-div{
+    width: 393px;
+    height: 71px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.chat-search{
+    width: 300px;
+    height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight:200;
+    font-size: 24px;
+    color: #23235E;
+    border: none;
+}
+
+.previous-chat{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.name-text{
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+    font-size: 19px;
+    color: white; 
+    margin-bottom: -10px;
+    margin-left: 20px;  
+}
+
+.message-text{
+    font-family: "Roboto", sans-serif;
+    font-weight:100;
+    font-size: 15px;  
+    color: white;
+    margin-left: 20px; 
+    width: 222px;
+}
+
+.time-and-number{
+    margin-left: 80px;
+}
+
+.time-text{
+    color: white;
+    margin-bottom: -10px;
+}
+
+.number-text{
+    color: white;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.container>img{
+    width: 100%;
+    height: 60%;
+}
+
+.homepage-heading{
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 70px;
+}
+
+.heading{
+    margin-top: -580px;
+}
+
+.heading>h1{
+    margin-top: -50px
+}
+
+.link-container{
+    text-align: center;
+}
+
+.link-container>a{
+    background-color: white;
+    text-decoration: none;
+    color: #23235E;
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
